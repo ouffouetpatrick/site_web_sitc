@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --first-color : #FF5200;
+    --second-color : #002E6D;
+    --footerHeader-color : #0D47A1;
+    --third-color : #BEA187;
+    --auther-firstColor : #167F8B;
+    --auther-secondColor : #888888;
+    --auther-thirdColor : #707070;
+    --titleColor : #212529;
+    --textColor : #272725;
+    --ligne : #DBDCE4;
+    --form-color: #7562e0;
+
+    --font-title : constantia;
+}
+
+body{
+    padding-top: 72px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body a{
+    text-decoration: none;
+}
+
+/*============ BANNIERE ==============*/
+
+.carousel-banner{
+    width: 100%;
+    height: 560px;
+}
+
+.img-carousel{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banniere-content{
+    padding-top: 0rem;
+    padding-right: 6rem;
+}
+
+.banniere-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-title{
+    text-align: right;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--font-title);
+    color: white;
+}
+
+.expertise{
+    text-align: right;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: var(--font-title);
+    margin-top: 7px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.title-ligne{
+    display: flex;
+    justify-content: end;
+}
+
+.ligne-banner{
+    width: 110px;
+    height: 6px;
+    background-color: var(--first-color);
+    text-align: right;
+    margin-top: 7px;
+}
+
+.banniere-right-bottom{
+    text-align: right;
+    margin-bottom: 8rem;
+}
+
+.btn-banniere{
+    font-family: var(--font-title);
+    font-size: 23px;
+    background-color: var(--first-color);
+    color: white;
+    padding: 13px 35px 13px 35px;
+    border-radius: 45px;
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+
+.btn-banniere:hover{
+    color: white;
+    background-color: var(--footerHeader-color);
+}
+
+/*++++++++++++++ MAIN ++++++++++++++*/
+
+/*=========== SECTION MISSION ===============*/
+
+.section-mission{
+    margin-top: 1rem;
+}
+
+.mission-title{
+font-family: var(--font-title);
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.ligne-mission{
+    width: 130px;
+    height: 6px;
+    background-color: var(--first-color);
+}
+
+.mission-texte{
+    margin-top: 25px;
+    font-size: 19px;
+}
+
+/*=========== SECTION COMPETENCES ===============*/
+
+.competences-section{
+    margin-bottom: 5rem;
+    background-color: var(--footerHeader-color);
+    background-image: url('../../res/competence.bg.jpg');
+    padding: 0 0 3rem 0;
+    background-size: cover;
+    opacity: 1;
+}
+
+.competence-row{
+    margin-top: 6rem;
+}
+
+.ligne-competence--parent, .competence-title--parent{
+    display: flex;
+    justify-content: center;
+}
+
+.ligne-competence{
+    width: 130px;
+    height: 6px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.competence-title{
+    font-family: var(--font-title);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    padding: 2rem 0 1rem 0;
+}
+
+.card-competence{
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-competence i{
+    color: white;
+    font-size: 70px;
+}
+
+.competence-name{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-competence{
+    background-color: white;
+    color: var(--auther-thirdColor);
+    font-weight: bold;
+    font-family: constantia;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.btn-competence:hover{
+    color: var(--third-color);
+}

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_detail" value="name:id_usr;datatype:int,name:nom_usr;datatype:string,name:prenom_usr;datatype:string,name:pseudo_usr;datatype:string,name:email_usr;datatype:string,name:mot_passe_usr;datatype:string,name:contact_usr;datatype:string,name:empty1_usr;datatype:string,name:empty2_usr;datatype:string,name:empty3_usr;datatype:string,name:geler_usr;datatype:int,name:date_creation_usr;datatype:timestamp,name:idusrcreation_usr;datatype:int" />
+</info>

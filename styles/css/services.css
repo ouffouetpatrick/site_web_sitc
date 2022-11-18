@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap');
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{ 
+
+    --first-color : #FF5200;
+    --second-color : #002E6D;
+    --footerHeader-color : #0D47A1;
+    --third-color : #BEA187;
+    --auther-firstColor : #167F8B;
+    --auther-secondColor : #888888;
+    --auther-thirdColor : #707070;
+    --titleColor : #212529;
+    --textColor : #272725;
+    --ligne : #DBDCE4;
+
+    --font-title : constantia;
+}
+
+body{
+    padding-top: 72px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body a{
+    text-decoration: none;
+}
+
+/*===========SERVICES========*/
+
+.nosServices{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.service-parent{
+    text-align: center;
+}
+
+.service-title{
+    font-weight: bold;
+    font-family: constantia;
+    text-transform: uppercase;
+}
+
+.ligne-service-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.ligne-service{
+    width: 130px;
+    height: 6px;
+    background-color: var(--first-color);
+}
+
+.card-title{
+    font-family: constantia;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.text-muted{
+    color: var(--footerHeader-color) !important;
+    font-weight: bold;
+}
+
+.card img{
+    width: 370px;
+    height: 246px;
+}
+
+.card img:hover{
+    width: 373px;
+    height: 249px;
+}
+
+.services-texte{
+    text-align: center;
+    font-size: 27px;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-family: constantia;
+}
+
+/*============== TEMOIGNAGE =========*/
+
+.temoignage{
+    margin-top: 2.5rem;
+}
+
+.temoignage-title--bloc{
+    text-align: center;
+}
+
+.temoignage-title{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: constantia;
+    text-transform: uppercase;
+    color: var(--titleColor);
+    text-align: center;
+}
+
+.ligne-temoignage-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.ligne-temoignage{
+    width: 130px;
+    height: 6px;
+    background-color: var(--first-color);
+}
+
+.partenaire-parent{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-partenaire{
+    width: 200px;
+    height: 100px;
+}
+
+.card-partenaire img{
+    width: 100%;
+    height: 100%;
+}

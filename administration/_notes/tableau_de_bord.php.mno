@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_rubrique" value="name:nombre_rubbrique;datatype:int" />
+	<infoitem key="UD_rs_article" value="name:nombre_article;datatype:int" />
+	<infoitem key="UD_rs_user" value="name:nombre_utisateur;datatype:int" />
+	<infoitem key="UD_rs_article_publies" value="name:nombre_article_publies;datatype:int" />
+	<infoitem key="UD_rs_articles_depublies" value="name:nombre_article_depublies;datatype:int" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsrubrique" value="name:id_rub;datatype:int,name:libelle_rub;datatype:int,name:description_rub;datatype:int,name:image_rub;datatype:int,name:geler_rub;datatype:int,name:idusrcreation_rub;datatype:int,name:idrub_rub;datatype:int" />
+</info>

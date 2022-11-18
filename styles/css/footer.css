@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap');
+
+:root{ 
+
+    --first-color : #FF5200;
+    --second-color : #002E6D;
+    --footerHeader-color : #0D47A1;
+    --third-color : #BEA187;
+    --auther-firstColor : #167F8B;
+    --auther-secondColor : #888888;
+    --auther-thirdColor : #707070;
+    --titleColor : #212529;
+    --textColor : #272725;
+    --ligne : #DBDCE4;
+
+    --font-title : constantia;
+}
+
+/*------------ FOOTER ---------------*/
+
+.footer-fluid{
+    margin-top: 0.5rem;
+}
+
+.logo-footer-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer{
+    width: 200px;
+}
+
+.logo-footer img{
+    width: 100%;
+}

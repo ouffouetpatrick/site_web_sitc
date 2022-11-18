@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_user" value="name:idusr_pro;datatype:int,name:pseudo_usr;datatype:string,name:mot_passe_usr;datatype:string" />
+</info>

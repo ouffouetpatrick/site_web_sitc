@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --first-color : #FF5200;
+    --second-color : #002E6D;
+    --footerHeader-color : #0D47A1;
+    --third-color : #BEA187;
+    --auther-firstColor : #167F8B;
+    --auther-secondColor : #888888;
+    --auther-thirdColor : #707070;
+    --titleColor : #212529;
+    --textColor : #272725;
+    --ligne : #DBDCE4;
+    --form-color: #7562e0;
+
+    --font-title : constantia;
+}
+
+body{
+    padding-top: 72px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body a{
+    text-decoration: none;
+}
+
+/*========== PROJETS ===========*/
+
+.header-projet{
+    margin-top: 1rem;
+}
+
+.header-right{
+    width: 750px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.header-right img{
+    width: 100%;
+    height: 100%;
+}
+
+.date-projet{
+    margin-top: 3rem;
+}
+
+.header-left p{
+    font-size: 20px;
+    font-family: constantia;
+}
+
+.date-projet, .client, .lien{
+    font-family: constantia;
+    font-weight: bold;
+    color: var(--footerHeader-color);
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.body-projet{
+    margin-top: 2rem;
+}
+
+.body1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.body2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-left{
+    width: 550px;
+    height: 400px;
+    padding: 20px;
+}
+
+.body-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.body-right{
+    width: 550px;
+    height: 400px;
+    padding: 20px;
+}
+
+.body-right img{
+    width: 100%;
+    height: 100%;
+}
+
+.body-right2{
+    width: 550px;
+    height: 400px;
+    padding: 20px;
+}
+
+.body-right2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.body-left2{
+    width: 550px;
+    height: 400px;
+    padding: 20px;
+}
+
+.body-left2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.body2{
+    margin-top: 2rem;
+}
+
+.presentation-project{
+    margin-top: 2rem;
+}
+
+.presentation-client, .presentation-projet{
+    font-family: constantia;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ligne-pClient, .ligne-pProjet{
+    width: 130px;
+    height: 6px;
+    background-color: var(--first-color);
+    margin-bottom: 1rem;
+}
+
+.texte-client, .texte-projet{
+    font-size: 19px;
+}
+
+.lien-projet{
+    color: var(--first-color);
+}

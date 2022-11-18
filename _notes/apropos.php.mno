@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_apropos" value="name:idrub_art;datatype:int,name:libelle_art;datatype:string,name:contenu1_art;datatype:string,name:description_art;datatype:blob,name:image1_art;datatype:string" />
+	<infoitem key="UD_rs_quiSommeNous" value="name:idrub_art;datatype:int,name:libelle_art;datatype:string,name:contenu1_art;datatype:string,name:description_art;datatype:blob,name:image1_art;datatype:string" />
+	<infoitem key="UD_rs_histoire" value="name:idrub_art;datatype:int,name:libelle_art;datatype:string,name:description_art;datatype:blob,name:geler_art;datatype:int,name:id_art;datatype:int" />
+	<infoitem key="UD_rs_apropos1" value="name:id_art;datatype:int,name:idrub_art;datatype:int,name:libelle_art;datatype:string,name:contenu1_art;datatype:string,name:description_art;datatype:blob,name:image1_art;datatype:string,name:geler_art;datatype:int" />
+	<infoitem key="UD_rs_apropos2" value="name:idrub_art;datatype:int,name:id_art;datatype:int,name:libelle_art;datatype:string,name:description_art;datatype:blob" />
+	<infoitem key="UD_aproposs1" value="name:idrub_art;datatype:int,name:id_art;datatype:int,name:libelle_art;datatype:string,name:contenu1_art;datatype:string,name:description_art;datatype:blob,name:image1_art;datatype:string" />
+</info>

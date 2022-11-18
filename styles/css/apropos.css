@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --first-color : #FF5200;
+    --second-color : #002E6D;
+    --footerHeader-color : #0D47A1;
+    --third-color : #BEA187;
+    --auther-firstColor : #167F8B;
+    --auther-secondColor : #888888;
+    --auther-thirdColor : #707070;
+    --auther-fourthColor : #333378;
+    --titleColor : #212529;
+    --textColor : #272725;
+    --ligne : #DBDCE4;
+
+    --font-title : constantia; 
+}
+
+body{
+    padding-top: 72px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body a{
+    text-decoration: none;
+}
+
+
+.equipe-section{
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.nous-sommes{
+    font-family: constantia;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ligne-nous-sommes{
+    width: 130px;
+    height: 6px;
+    background-color: var(--first-color);
+    margin-bottom: 1.5rem;
+}
+
+.aprpos-img{
+    width: 385px;
+    height:218px;
+}
+
+.aprpos-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.h4-apropos{
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.presentation-texte{
+    font-size: 18px;
+}
+
+.texte-histoire{
+    font-size: 18px;
+}
+
+/*======== NOTRE HISTOIRE ========*/
+
+.notreHistoire-parent{
+    margin-top: 2rem;
+}
+
+.notreHistoire{
+    font-family: var(--font-title);
+    font-weight: bold;
+}
+
+.ligne-notreHistoire{
+    margin-bottom: 10px;
+    width: 130px;
+    height: 6px;
+    background-color: var(--first-color);
+}

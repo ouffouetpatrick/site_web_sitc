@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_detail" value="name:id_art;datatype:int,name:idrub_art;datatype:int,name:libelle_art;datatype:string,name:contenu1_art;datatype:string,name:contenu2_art;datatype:blob,name:contenu3_art;datatype:blob,name:texte_art;datatype:blob,name:description_art;datatype:blob,name:texte_lien_art;datatype:string,name:image1_art;datatype:string,name:image2_art;datatype:string,name:image3_art;datatype:string,name:image4_art;datatype:string,name:image5_art;datatype:string,name:empty2_art;datatype:string,name:empty3_art;datatype:string,name:geler_art;datatype:int,name:dateusercreation_art;datatype:timestamp,name:iduscreation_art;datatype:int" />
+</info>

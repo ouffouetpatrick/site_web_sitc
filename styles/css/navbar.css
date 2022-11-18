@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap');
+
+:root{ 
+
+    --first-color : #FF5200;
+    --second-color : #002E6D;
+    --footerHeader-color : #0D47A1;
+    --third-color : #BEA187;
+    --auther-firstColor : #167F8B;
+    --auther-secondColor : #888888;
+    --auther-thirdColor : #707070;
+    --titleColor : #212529;
+    --textColor : #272725;
+    --ligne : #DBDCE4;
+
+    --font-title : constantia;
+}
+
+
+/*================== MENU =========*/
+
+.menu-navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    z-index: 999;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    box-shadow: 0 3px 6px rgb(25 32 36 / 16%), 0 -1px 4px rgb(25 32 36 / 4%);
+}
+
+.navbar-brand{
+    color: var(--footerHeader-color)!important;
+}
+
+.nav-link{
+    color: var(--footerHeader-color)!important;
+    margin: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: var(--third-color)!important;
+}
+
+.logo-top {
+    width: 200px;
+}
+
+.logo-top img{
+    width: 100%; 
+}
+
+
+/*========= INDICATION PAGE ========*/
+
+.indication-page{
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--second-color);
+    padding: 0.5rem 0 0.5rem 5rem;
+
+}
+
+.accueil, .page-actuel, .indication-page > span{
+    font-size: 15px;
+    font-family: var(--font-title);
+    font-weight: bold;
+    color: var(--third-color);
+    text-transform: uppercase;
+}
+
+.accueil a{
+    color: var(--third-color);
+}
+
+
+@media screen and (max-width : 991px) {
+    .indication-page{
+        margin-top: 1.5rem;
+    }
+}

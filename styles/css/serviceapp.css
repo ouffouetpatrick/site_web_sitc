@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --first-color : #FF5200;
+    --second-color : #002E6D;
+    --footerHeader-color : #0D47A1;
+    --third-color : #BEA187;
+    --auther-firstColor : #167F8B;
+    --auther-secondColor : #888888;
+    --auther-thirdColor : #707070;
+    --titleColor : #212529;
+    --textColor : #272725;
+    --ligne : #DBDCE4;
+    --form-color: #7562e0;
+
+    --font-title : constantia;
+}
+
+body{
+    padding-top: 72px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body a{
+    text-decoration: none;
+}
+
+
+.serviceapp{
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.image-serviceapp{
+    height: 285px;
+}
+
+.image-serviceapp img{
+    height: 100%;
+}
+
+.image-serviceapp2{
+    height: 280px;
+}
+
+.image-serviceapp2 img{
+    height: 100%;
+}
+
+.serviceapp-title{
+    font-family: constantia;
+    font-weight: bold;
+}
+
+.ligne-serviceapp{
+    width: 130px;
+    height: 6px;
+    background-color: var(--first-color);
+}
+
+.title-web{
+    margin-top: 1rem;
+    font-family: constantia;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.serviceapp-texte{
+    margin-top: 0.5rem;
+    font-size: 19px;
+}
+
+.title-web2{
+    font-family: constantia;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.serviceapp-texte2{
+    margin-top: 0.5rem;
+    font-size: 19px;
+}
+
+.serviceapp-texte3{
+    font-size: 19px;
+    margin-top: 2rem;
+}

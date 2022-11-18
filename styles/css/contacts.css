@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --first-color : #FF5200;
+    --second-color : #002E6D;
+    --footerHeader-color : #0D47A1;
+    --third-color : #BEA187;
+    --auther-firstColor : #167F8B;
+    --auther-secondColor : #888888;
+    --auther-thirdColor : #707070;
+    --auther-fourthColor : #333378;
+    --titleColor : #212529;
+    --textColor : #272725;
+    --ligne : #DBDCE4;
+    --form-color: #7562e0;
+
+    --font-title : constantia;
+}
+
+body{
+    padding-top: 72px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body a{
+    text-decoration: none;
+}
+/*============ FORMULAIRE =============*/
+.formualaire-contacts{
+    margin-bottom: 0.5rem;
+}
+
+.contacts-title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: constantia;
+    font-weight: bold;
+}
+
+.ligne-contacts-parent{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ligne-contacts{
+    width: 130px;
+    height: 6px;
+    background-color: var(--first-color);
+}
+
+.contact-text{
+    text-align: center;
+    font-size: 25px;
+    font-family: constantia;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-bloc-parent{
+    background-color: var(--footerHeader-color);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.formulaire-bloc{
+    padding-left: 8rem;
+    padding-right: 8rem; 
+}
+
+.form-label{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.form-button{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-form{
+    background-color: var(--third-color);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 40px;
+    padding: 8px 20px 8px 20px;
+}
+
+.btn-form:hover{
+    background-color: white;
+    color: var(--third-color);
+}
+
+.icon-form--parent{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-form--content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coordonnees-form{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.icon-form{
+    font-size: 55px;
+    color: var(--third-color);
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
